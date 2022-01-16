@@ -1,44 +1,74 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/media.css">
-        <title>davaleba 10</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>11 Lecture</title>
+        <meta name="description" content="Lecture 11 examples" />
+        <meta name="keywords" content="forms, responsive, meta tags" />
+        <meta name="author" content="ME" />
+        <meta
+            property="og:url"
+            content="https://mushni-chankseliani.github.io/lecture_11-group_3/"
+        />
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="This Is Test Title"
+        />
+        <meta
+            property="og:description"
+            content="How much does culture influence creative thinking?"
+        />
+        <meta
+            property="og:image"
+            content="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
+        />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
     </head>
     <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#"  class="a" >contact</a>
-                </li>
-            </ul>
-        </nav>
-        <h1 class="contact">Contact us to get 
-            free support</h1>
-        <div>
-            <form class="f-2">text here ...</form>
-            <form action="/action_page.php" class="f-1">
-              <label for="fname"></label>
-              <input type="text" class="input-1" id="fname" name="subject" placeholder="subject">
-          
-              <label for="lname"></label>
-              <input type="text" class="input-1" id="lname" name="Name/Surname" placeholder="Name / Surname">
-              
-              <label for="lname"></label>
-              <input type="text" class="input-1" id="lname" name="Email" placeholder="Email">
-             
-            
-              <input type="submit" class="input-2 input-3" value="send">
-            </form>
-          </div>
-          <div>
-              <div><img src="images/1.png" alt=""></div>
-              <div></div>
-              <div></div>
-          </div>
+        <section class="s-1">
+            <div class="container">
+                <h4>Contact</h4>
+                <h2>
+                    Contact us to get <br class="br" />
+                    free support
+                </h2>
+
+                <div class="form-wrapper">
+                    <form action="" method="post">
+                        <textarea
+                            placeholder="Description"
+                            name="description"
+                            id="description"
+                        ></textarea>
+                        <div class="inputs-wrapper">
+                            <input
+                                type="text"
+                                name="subject"
+                                id="subject"
+                                placeholder="subject"
+                            />
+                            <input
+                                type="text"
+                                name="username"
+                                id="username"
+                                placeholder="username"
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="email"
+                            />
+                            <button>Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </body>
-    </html>
+</html>
