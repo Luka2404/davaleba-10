@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-    .container {
+    .container,.container-s-2 {
         width: 90%;
     }
 }
@@ -7,6 +7,11 @@
 @media (max-width: 1024px) {
     .br {
         display: none;
+    }
+    .container, 
+    .container-s-2, 
+    .imgs-s2 {
+width: 80%;
     }
 
     form {
